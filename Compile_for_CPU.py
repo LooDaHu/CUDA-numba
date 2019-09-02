@@ -25,3 +25,6 @@ print("Time without Numba compiler:" + str(sum(time1) / len(time1)))
 # We can see the result of type inference by using the .inspect_types() method,
 # which prints an annotated version of the source code:
 print(hypot.inspect_types())
+
+
+
